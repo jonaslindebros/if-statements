@@ -1,2 +1,2 @@
 # if-statements
-Whrite clean and nice if statements in your react templates
+Whrite nice and clean if statements in your react templates
