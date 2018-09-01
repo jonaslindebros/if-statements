@@ -1,6 +1,6 @@
 {
   "name": "lb-jsx-if-statements",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Write nice and clean if statements in your React JSX templates ",
   "main": "lib/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "peerDependencies": {
     "react": "^16.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0"
   }
 }
