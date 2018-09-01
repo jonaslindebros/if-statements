@@ -1,10 +1,12 @@
 {
-  "name": "react-if-statements",
+  "name": "lb-jsx-if-statements",
   "version": "1.0.0",
   "description": "Write nice and clean if statements in your React JSX templates ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run compile",
+    "compile": "rm -rf lib/ && babel --out-dir lib/ src/"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/jonaslindebros/if-statements/issues"
   },
-  "homepage": "https://github.com/jonaslindebros/if-statements#readme"
+  "homepage": "https://github.com/jonaslindebros/if-statements#readme",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
