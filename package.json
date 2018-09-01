@@ -1,0 +1,25 @@
+{
+  "name": "react-if-statements",
+  "version": "1.0.0",
+  "description": "Write nice and clean if statements in your React JSX templates ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonaslindebros/if-statements.git"
+  },
+  "keywords": [
+    "React",
+    "JSX",
+    "statements",
+    "if-statements"
+  ],
+  "author": "jonaslindebros@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonaslindebros/if-statements/issues"
+  },
+  "homepage": "https://github.com/jonaslindebros/if-statements#readme"
+}
