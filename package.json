@@ -1,6 +1,6 @@
 {
   "name": "lb-jsx-if-statements",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Write nice and clean if statements in your React JSX templates ",
   "main": "lib/index.js",
   "scripts": {
